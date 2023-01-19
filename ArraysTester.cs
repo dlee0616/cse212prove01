@@ -57,7 +57,7 @@ public static class ArraysTester {
     private static void RotateListRight(List<int> data, int amount)
     {
         // TODO Problem 2 Start
-        //make sublist from amount integer to the last ineteger of the list..
+        //make sublist from amount integer to the last ineteger of the list......
         var subList = data.GetRange(data.Count - amount, amount);
         //remove sublist from original list 
         data.RemoveRange(data.Count - amount, amount);
